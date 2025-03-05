@@ -32,10 +32,17 @@ nav a{
     
 }
 .hhh{
-    text-align: center;
+    font-weight: bolder;
     font-size: 20px;
     padding: 20px;
-    color: rgb(135, 90, 32);
+    color: rgb(80, 51, 14);
+    /* rgb(135, 90, 32) */
+}
+.white-txt{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
 }
 .aaa{
     border-radius: 50%;
@@ -76,10 +83,15 @@ footer{
 }
 
 .qq{
-    width: 110px;
+    width: 150px;
     text-align: center;
-    color: rgb(234, 185, 113);
+    color: white;
     
+}
+.skin-headtxt{
+    width: 150px;
+    text-align: center;
+    color: rgb(102, 60, 22);
 }
 .hero{
 
@@ -92,7 +104,6 @@ footer{
 
 .skin{
     justify-content: center;
-    background-color: rgba(173, 97, 47, 0.616);
     margin: 20px;
 
 }
@@ -104,8 +115,25 @@ footer{
     }
 
 .skin-img{
-    border-radius: 30%;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.skin-text{
+    background-color: rgba(129, 71, 33, 0.616);
+    padding: 30px;
 }
 .end{
     text-align: left;
+    color: white;
+}
+
+.text-class{
+    display: inline-flex;
+}
+
+.bottom-section{
+    background-color: rgb(145, 72, 23);
+    text-align: center;
+    padding: 20px;
+    color: white;
 }
